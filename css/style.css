@@ -280,6 +280,10 @@
   background: url(../img/about-m.jpg) top right no-repeat;
 }
 
+.bg-contact {
+  background: url(../img/contact.jpg) top right no-repeat;
+}
+
 .bg-blog {
   background: url(../img/blog.jpg) top right no-repeat;
 }
@@ -372,6 +376,10 @@
     background-size: 70% 100%;
   }
 
+  .bg-contact {
+    background-size: 60% 100%;
+  }
+
   .bg-call-to-action {
     background-size: 70% 100%;
   }
@@ -399,7 +407,10 @@
   .bg-nurture,
   .bg-call-to-action,
   .bg-footer,
-  .bg-testimonial {
+  .bg-testimonial,
+  .bg-contact,
+  .bg-about,
+  .bg-blog {
     background-position: center;
     background-size: cover;
   }
